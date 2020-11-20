@@ -41,7 +41,7 @@ Here are the various scenarios where Data Box can be used to export data from Az
 
 - **Disaster recovery** - when a copy of the data from Azure is restored to an on-premises network. This is typically done in case of a disaster recovery scenario where a large amount of Azure data is exported to Data Box. Microsoft then ships this Data Box and the data is restored on your premises in a short period of time. 
 
-- **Security requirements** - when you need to be able to export data out fo Azure due to government or security requirements. For example, Azure Storage is available in US Secret and Top Secret clouds, and you can use Data Box to export data out of Azure. 
+- **Security requirements** - when you need to be able to export data out of Azure due to government or security requirements. For example, Azure Storage is available in US Secret and Top Secret clouds, and you can use Data Box to export data out of Azure. 
 
 - **Migrate back to on-premises or to another cloud service provider** - when you want to move all the data back to on-premises, or to another cloud service provider, export data via Data Box to migrate the workloads.
 
