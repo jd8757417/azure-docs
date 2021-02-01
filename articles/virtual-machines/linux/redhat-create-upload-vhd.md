@@ -277,7 +277,7 @@ This section assumes that you have already obtained an ISO file from the Red Hat
 
     ```console
     if [[ -f /mnt/resource/swapfile ]]; then
-    echo "Removing swapfile" #RHEL uses a swapfile by defaul
+    echo "Removing swapfile" #RHEL uses a swapfile by default
     swapoff /mnt/resource/swapfile
     rm /mnt/resource/swapfile -f
     fi
@@ -439,7 +439,7 @@ This section assumes that you have already obtained an ISO file from the Red Hat
     > [!NOTE]
     > If you are migrating a specific virtual machine and do not wish to create a generalized image, set `Provisioning.Agent=disabled` on the `/etc/waagent.conf` config.
     
-    1. Configure mounts:
+    2. Configure mounts:
 
     ```console
     echo "Adding mounts and disk_setup to init stage"
@@ -465,7 +465,7 @@ This section assumes that you have already obtained an ISO file from the Red Hat
 
     ```console
     if [[ -f /mnt/resource/swapfile ]]; then
-    echo "Removing swapfile" #RHEL uses a swapfile by defaul
+    echo "Removing swapfile" #RHEL uses a swapfile by default
     swapoff /mnt/resource/swapfile
     rm /mnt/resource/swapfile -f
     fi
